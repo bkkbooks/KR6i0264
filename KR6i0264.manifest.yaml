@@ -1,0 +1,213 @@
+canonical_identifier: bkk:krp/KR6i0264/v1
+canonical_location: https://kanripo.org/bkk/KR6i0264/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 文殊支利普超三昧經
+  identifiers:
+    alt_id:
+    - T15n0627
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T15/T15n0627.xml
+    old_id: T15n0627
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 明
+  label: 明
+  source_xml_id: wit5
+- short: 宮
+  label: 宮
+  source_xml_id: wit6
+- short: 聖
+  label: 聖
+  source_xml_id: wit2
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0264_000.yaml, hash: 'sha256:786af827fe24518b287ffd863d83daf6cbace6176035cfd8eb2306d2416a9df3'}
+  - {seq: 1, filename: KR6i0264_001.yaml, hash: 'sha256:6233571ba79895a96a72b07a6ba94a398c8f9eca489a328821ddc5aa9e227627'}
+  - {seq: 2, filename: KR6i0264_002.yaml, hash: 'sha256:299d0e6346987f79c2a75b29c8684f1687289e4c94bd43af5557c6d86738bb60'}
+  - {seq: 3, filename: KR6i0264_003.yaml, hash: 'sha256:1502b788abd4b0632bab165fb367d8431de9827e0c47a95b53e3b321ebe33226'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0264_001.markers.yaml, hash: 'sha256:241be3c781e26d2201d47c131ba32837584dbfd92432b29c632a7c8e01e5c945'}
+  - {seq: 2, role: markers, filename: assets/KR6i0264_002.markers.yaml, hash: 'sha256:fcc8dd037689c52b2c0dd2b91e92f80d1d2f8f1b9cd9fbee424cfad65bf26642'}
+  - {seq: 3, role: markers, filename: assets/KR6i0264_003.markers.yaml, hash: 'sha256:259518ea73f4519c64d6332749254129f28c002bac7cc21a661199cfb7ade2f8'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0264_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9857
+  label: '文殊師利普超三昧經卷上
+
+    一名阿闍世王品'
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0264_T_001-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 1 正士品(上)
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0264_T_001-mulu-2
+    span:
+    - body
+    - 4515
+    - 4515
+  label: 2 化佛品(上)
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0264_T_001-mulu-3
+    span:
+    - body
+    - 6393
+    - 6393
+  label: 3 舉鉢品(上)
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 10375
+  label: 文殊師利普超三昧經卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 4 幼童品(中)
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-mulu-2
+    span:
+    - body
+    - 1653
+    - 1653
+  label: 5 無吾我品(中)
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-mulu-3
+    span:
+    - body
+    - 4066
+    - 4066
+  label: 6 總持品(中)
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-mulu-4
+    span:
+    - body
+    - 5785
+    - 5785
+  label: 7 三藏品(中)
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-mulu-5
+    span:
+    - body
+    - 6976
+    - 6976
+  label: 8 不退轉輪品(中)
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0264_T_002-mulu-6
+    span:
+    - body
+    - 7791
+    - 7791
+  label: 9 變動品(中)
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0264_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 10395
+  label: 文殊師利普超三昧經卷下
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0264_T_003-mulu-1
+    span:
+    - body
+    - 10
+    - 10
+  label: 10 決疑品(下)
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0264_T_003-mulu-2
+    span:
+    - body
+    - 4630
+    - 4630
+  label: 11 心本淨品(下)
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0264_T_003-mulu-3
+    span:
+    - body
+    - 7589
+    - 7589
+  label: 12 月首受決品(下)
+  type: mulu
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0264_T_003-mulu-4
+    span:
+    - body
+    - 9431
+    - 9431
+  label: 13 屬累品(下)
+  type: mulu
+  level: 1
+hash: sha256:e09409e0c29fd73b777aaeabfe3fcfcc0841f3b78a8945bc214c0fc219c7e12b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
